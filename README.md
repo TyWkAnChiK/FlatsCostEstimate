@@ -1,6 +1,13 @@
 # FlatsCostEstimate
 # FlatParser
 
+### Установка библиотек
+```bash
+pip install beautifulsoup4
+pip install requests
+pip install cfscrape
+```
+
 ### Использование
 ```python
 from FlatParser import FlatParser
