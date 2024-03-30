@@ -58,6 +58,7 @@ pip install catboost
 ### Использование
 * Обученную модель из AI поместить на место final_model
 * Запустить manage.py с параметром runserver
+* зайти на http://127.0.0.1:8000/
 
 
 # Others
