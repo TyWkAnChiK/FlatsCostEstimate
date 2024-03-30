@@ -1,16 +1,17 @@
 # FlatsCostEstimate
 # CianParser
 Парсер данных с cian.ru
-#Файлы и их содержание
-*constants.py
+
+# Файлы и их содержание
+* constants.py
 Константные куски url, используемые для его сборки
-*Urlbuilder
+* Urlbuilder
 Класс для создания url с фильтрами, ценовым диапазоном и т.д.
-*PageGetter
+* PageGetter
 Класс для запроса страницы, использует прокси и clouflare для обхода блокировок
-*FlatPagePars
+* FlatPagePars
 Класс для сбора всей информации со страницы квартиры
-*FlatParser
+* FlatParser
 Класс, используемый для парсинга
 
 ### Установка библиотек
