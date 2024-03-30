@@ -1,4 +1,5 @@
 # FlatsCostEstimate
+Система оценки стоимости квартир в Москве
 # CianParser
 Парсер данных с cian.ru
 
