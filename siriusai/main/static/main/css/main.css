@@ -1,0 +1,59 @@
+body{
+
+}
+
+aside{
+    float: left;
+    width: 15%;
+    height: 100vh;
+    border-right: darkred solid 5px;
+}
+
+aside img{
+
+}
+aside .nikita_logo{
+    object-position: bottom -0px right 0px;
+    width: 70px;
+    float: left;
+}
+
+aside ul{list-style: none}
+
+aside .nikita_logo{
+    transition: transform 0.5s ease;
+}
+aside .nikita_logo:hover{
+    transform: scale(4);
+}
+
+aside ul li{
+    display: block;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.form_{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answer{
+
+}
+
+.BR{
+    margin: 0px;
+}

@@ -1,0 +1,31 @@
+{% extends "main/layout.html" %}
+
+{% block title %}
+  Первая страница
+{% endblock %}
+
+{% block name %}
+ <p class="form_">
+   Заполните форму
+ </p>
+<form method="post" class="form_">
+    {% csrf_token %}
+    {{ form.metro_station }}    <br>
+    {{ form.minutes_to_metro }} <br>
+    {{ form.number_of_rooms }}  <br>
+    {{ form.all_area }}         <br>
+    {{ form.living_area }}      <br>
+    {{ form.kitchen_area }}     <br>
+    {{ form.floor }}            <br>
+    {{ form.number_of_floors }} <br>
+<!--    {{ form.renovation }}       <br>-->
+    {{ form.renovations }}      <br>
+
+    <button class="btn btn-success" type="submit"><h6>Получить оценку:</h6></button>
+
+    {{ answer }}
+
+
+</form>
+
+{% endblock %}

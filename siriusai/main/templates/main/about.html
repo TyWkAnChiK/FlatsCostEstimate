@@ -1,0 +1,16 @@
+{% extends "main/layout.html" %}
+
+{% block title %}ОБО МНЕ{% endblock %}
+
+{% block name %}
+  <div> Бытует мнение, что ребята, у которых сабвуфер в багажнике, любят, чтобы что-то большое всегда долбило сзади. </div>
+
+  <br>
+  <p> fjfjfjffj </p>
+
+  {% for x in quest %}
+    <h2>{{ x.ploshad }}</h2>
+    <h2>{{ x.etazh }}</h2>
+    <h2>{{ x.adres }}</h2>
+  {% endfor %}
+{% endblock %}
