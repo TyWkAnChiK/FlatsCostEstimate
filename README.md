@@ -1,6 +1,6 @@
 # FlatsCostEstimate
-# FlatParser
-
+# CianParser
+Парсер данных с cian.ru
 ### Установка библиотек
 ```bash
 pip install beautifulsoup4
